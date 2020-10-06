@@ -26,7 +26,7 @@ To prepare to install cf-for-k8s:
   cd cf-for-k8s
   ```
 
--   Create a temporary directory used as a swap space for storing some YAML files.
+- Create a temporary directory used as a swap space for storing some YAML files.
 
   ```
   mkdir ~/tempdir
