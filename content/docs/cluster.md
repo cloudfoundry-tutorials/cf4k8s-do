@@ -13,7 +13,9 @@ Wait for the cluster to be ready.
 
 Alternatively, here's the doctl CLI command for those who prefer to create clusters without leaving the comfort of their console:
 
-```doctl kubernetes cluster create cf4k8s-demo --node-pool "name=cf-k8s;size=s-4vcpu-8gb;count=5;tag=cf-k8s-ftw" --version 1.17.11-do.1 --update-kubeconfig true --set-current-context true --region sfo2 
+```
+doctl kubernetes cluster create cf4k8s-demo --node-pool "name=cf-k8s;size=s-4vcpu-8gb;count=5;tag=cf-k8s-ftw" --version 1.17.11-do.1 --update-kubeconfig true --set-current-context true --region sfo2 
+
 ```
 
 Each of the flags used are explained below: 
