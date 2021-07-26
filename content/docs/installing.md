@@ -45,7 +45,7 @@ Next, we need to generate and set up configuration for your cf-for-k8s instance.
 - Digital Ocean does not include a metrics server by default when creating a Kubernetes cluster. So, please add this line to the YAML file manually to instruct the cluster to add a metrics server when installing cf-for-k8s.
 
   ```
-  echo “add_metrics_server_components: true” >> ~/tempdir/cf-values.yml
+  echo 'add_metrics_server_components: true' >> ~/tempdir/cf-values.yml
   ```
 
 - You will also need to add credentials to a container registry. Here we are using Docker hub. If you have a private container registry you prefer to use, you can substitute the values to point to your own.
